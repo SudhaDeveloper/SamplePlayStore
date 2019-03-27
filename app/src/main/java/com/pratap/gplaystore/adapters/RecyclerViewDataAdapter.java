@@ -31,6 +31,8 @@ public class RecyclerViewDataAdapter extends RecyclerView.Adapter<RecyclerViewDa
 
     @Override
     public ItemRowHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+
+
         View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.list_item, null);
         ItemRowHolder mh = new ItemRowHolder(v);
         return mh;
